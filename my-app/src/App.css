@@ -45,9 +45,11 @@
 
 .box{
   width:30px;
+  height: 30px;
   /* margin:auto; */
-  margin-left: 5px;
-  margin-top: 5px;
+  /* margin-left: 5px; */
+  margin-top: -2px;
+  margin-bottom: -2px;
   /* padding: 10px, 10px, 10px, 10px; */
   display: inline-block;
   outline: 1px solid rgb(175, 216, 248);
@@ -55,5 +57,52 @@
 }
 
 .grid{
-  margin: 50px 100px 0;
+  /* margin: auto; */
+  /* width: 70%; */
+  /* margin: 50px 100px 0; */
+}
+
+
+
+.wrapper{
+  width: 70%;
+  margin:auto;
+  text-align: center;
+}
+
+.filled{
+  background-image: radial-gradient(#34ebba, #1ab88d);
+  /* background-color: #34ebba; */
+
+}
+
+
+.btn{
+  /* display: inline-block; */
+  width:100px;
+}
+
+.numsv{
+  display: inline-block;
+  width: 30px;
+  padding-left: 20px;
+  
+  
+  /* height: 20px; */
+  /* margin: auto; */
+  /* margin-top: -10px; */
+  /* margin-bottom: -2px; */
+}
+
+
+.numsh{
+  display: inline-block;
+  height: 20px;
+  /* margin: auto; */
+  position: relative;
+  padding-right: 3px;
+  top: -8px;
+  margin-top: 0px;
+  margin-bottom: -2px;
+  text-align: center;
 }
